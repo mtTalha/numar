@@ -1,0 +1,231 @@
+
+  @font-face {
+    font-family:poppins ;
+    src: url(./fonts/Poppins-Medium.ttf);
+  
+
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+} 
+
+.navbar{
+  background-color:rgba(0, 0, 0, 0.5) !important;
+  
+ 
+
+}
+.navbar-nav > li > a{
+    color: aliceblue !important;
+    justify-content: space-around;
+     ;
+}
+
+.navbar-brand{
+    color: aliceblue !important;
+}
+.logo{
+    height: auto;
+    width: 50px;
+    margin-left: 40px ;
+}
+.tech{
+    display:inline-flex ;
+    margin:10px ;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    /* text-decoration: underline; */
+}
+.navbar-brand :hover{
+  background: rgb(252,0,199);
+  background: linear-gradient(135deg, rgba(252,0,199,1) 0%, rgba(28,78,253,1) 54%, rgba(0,173,237,1) 100%); ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+.fa-solid{
+    margin:6px !important ;
+}
+.navbar-text{
+    font-weight: bolder;
+    
+}
+div{
+  display: block;
+}
+
+  
+.navbar-text {
+   margin-right:50px ;
+}
+.nav-item>a>i:hover{
+  background: rgb(252,0,199);
+  background: linear-gradient(135deg, rgba(252,0,199,1) 0%, rgba(28,78,253,1) 54%, rgba(0,173,237,1) 100%); ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+.main_container{
+  background-image:url(./images/slider_3.jpg) ;
+  width: 100%;
+  height: 650px;
+  background-size: cover
+}
+.heading{
+  font-family:poppins ;
+  padding: 10%;
+  margin-top:100px ;
+  font-weight: 900;
+  background: rgb(252,0,199);
+  background: linear-gradient(135deg, rgba(252,0,199,1) 0%, rgba(28,78,253,1) 54%, rgba(0,173,237,1) 100%); ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+.paragraph{
+  font-family:poppins ;
+  letter-spacing: 10px;
+  padding-left: 10%;
+  margin-bottom:150px ;
+  color: grey;
+  font-size: 23px;
+  font-weight: 600;
+ 
+}
+.headings h4 {
+  margin-top: 50px;
+  text-align: center;
+  font-family:poppins ;
+  font-size: 23px;
+  font-weight: 900;
+  color: #1c4efd;
+}
+.headings h2{
+  font-family: Poppins;
+  font-size: 40px;
+  text-align: center;
+  margin-top:10px ;
+ font-weight: bolder;
+}
+/* .mb-5, .my-5{
+  margin-bottom: 3rem !important;
+
+
+}
+.row{
+  display: flex;
+  /* -ms-flex-wrap: wrap; */
+  /* flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-md-4{
+  position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.blurb {
+  text-align: center;
+  background-size: 200%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px 20px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  border: 1px solid #d4f0ff;
+  box-shadow: rgb(0 0 0 / 10%) 0px 20px 25px -5px, rgb(0 0 0 / 4%) 0px 10px 10px -5px;
+  border-radius: 8px;
+}
+.blurb .img_wrapper {
+  margin-bottom: 30px;
+}
+.img_wrapper {
+  transition: 1.2s cubic-bezier(.17,.85,.438,.99);
+  transition-property: all;
+  transition-duration: 1.2s;
+  transition-timing-function: cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition-delay: 0s;
+  overflow: hidden;
+}
+
+@media (min-width: 768px){
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+}
+@media (min-width: 768px) {
+.container, .container-sm, .container-md
+    max-width: 720px;
+  }
+}  */
+.cards{
+  margin-top: 200px !important;
+  display: flex;
+  padding: %;
+  justify-content: space-around;
+}
+.card{
+  margin-left: 34px;
+}
+
+@media screen and (max-width: 399px){
+.headings h2 {
+    display:block;
+    font-size: 24px;
+    width: 100%;
+    font-family: Poppins;
+    /* font-size: 40px; */
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bolder;
+
+    
+  }
+  .paragraph{
+    font-size: 20px;
+  }
+.main_container{
+  background-image: url(./images/slider_3.jpg);
+  height: 542px;
+}
+}
+@media screen and (max-width: 768px){
+  .main_container{
+   
+    background-position-x: 1024px ;
+    width: 100%;
+    background-size: cover;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 425px){ 
+background-image: url(assest/img/hero-creative-agenc1.jpg);
+    height: 542px;
+  } */
+  /* @media screen and(min-width :1115px ){
+    .paragraph{
+        margin-top:-100px ;
+    }
+  } */
